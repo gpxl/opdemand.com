@@ -15,7 +15,7 @@ $(function(){
 		console.log("Out");
 	}
 
-	$('.wpcf7-form-control').focus(function(){
+	$('.form-submit').focus(function(){
 		if($(this).attr('placeholder') != ""){
 			temp = $(this).attr('placeholder');
 			$(this).attr('tempTest', temp);
@@ -23,11 +23,11 @@ $(function(){
 		$(this).attr('placeholder', '');
 	});
 
-	$('.wpcf7-form-control').keypress(function(event){
+	$('.form-submit').keypress(function(event){
 		n1 += String.fromCharCode(event.which);
 	});
 
-	$('.wpcf7-form-control').blur(function(){
+	$('.form-submit').blur(function(){
 		$(this).attr('inputTest', n1);
 		if($(this).attr('inputTest') == "") {$(this).attr('placeholder', $(this).attr('tempTest')  );}
 		n1 = ""
