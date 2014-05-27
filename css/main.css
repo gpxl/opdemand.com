@@ -200,20 +200,13 @@ a.product-option-item-button:last-of-type{margin-right:0}
 .form-input{height:73px!important}
 .form-submit{padding:17px 20px 14px 20px;margin-top:30px;font-size:16px;color:#fff;background:#00f;border:0!important;-webkit-border-radius:0;-moz-border-radius:0;-ms-border-radius:0;-o-border-radius:0;border-radius:0}
 .form-submit:hover{color:#fff;background:#989898}
-.form-phone{float:right;margin-top:46px;color:#989898}h1{margin:0;font-family:helvetica;font-size:24px;font-weight:bold;line-height:29px;color:#000}h1 a{margin:0;font-family:helvetica;font-size:24px;font-weight:bold;line-height:29px;color:#00f}h2{margin:0;line-height:29px}h3{line-height:29px}p{font-family:helvetica;font-size:16px;color:#231f20}a{font-family:helvetica;font-size:16px;color:#00f;text-decoration:none}a:hover{color:#00f;text-decoration:none}
+.form-phone{float:right;margin-top:46px;color:#989898}
+h1{margin:0;font-family:helvetica;font-size:24px;font-weight:bold;line-height:29px;color:#000}
+h1 a{margin:0;font-family:helvetica;font-size:24px;font-weight:bold;line-height:29px;color:#00f}
+h2{margin:0;line-height:29px}
+h3{line-height:29px}
+p{font-family:helvetica;font-size:16px;color:#231f20}
+a{font-family:helvetica;font-size:16px;color:#00f;text-decoration:none}
+a:hover{color:#00f;text-decoration:none}
 .text{font-family:helvetica;font-size:16px}
 @media(max-width:767px){.form-textbox,textarea{width:288px!important;padding-left:30px!important;text-indent:0!important}}@media(max-width:480px){.form-textbox,textarea{width:288px!important;padding-left:30px!important;text-indent:0!important}}
-/* form styling from wpcf7 plugin 
-div.wpcf7 {margin: 0;padding: 0;}
-div.wpcf7-response-output {margin: 2em 0.5em 1em;padding: 0.2em 1em;}
-div.wpcf7-mail-sent-ok {border: 2px solid #398f14;}
-div.wpcf7-mail-sent-ng {border: 2px solid #ff0000;}
-div.wpcf7-spam-blocked {border: 2px solid #ffa500;}
-div.wpcf7-validation-errors {border: 2px solid #f7e700;}
-span.wpcf7-form-control-wrap {position: relative;}
-span.wpcf7-not-valid-tip {color: #f00;font-size: 1em;display: block;}
-span.wpcf7-list-item {margin-left: 0.5em;}
-.wpcf7-display-none {display: none;}
-div.wpcf7 img.ajax-loader {border: none;vertical-align: middle;margin-left: 4px;}
-div.wpcf7 div.ajax-error {display: none;}
-div.wpcf7 .placeheld {color: #888;} */
