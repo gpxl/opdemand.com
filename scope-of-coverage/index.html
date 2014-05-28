@@ -4,25 +4,59 @@ title: Scope of Coverage | OpDemand
 ---
 
 <!-- The Content -->
-  <div class="scopeTitle"><h1>OpDemand Scope of Coverage</h1>
-<p>If you&#8217;ve purchased support from OpDemand, we&#8230;</p>
+<div class="scopeTitle">
+	<h1>Scope of Coverage</h1>
 </div>
 
+<div class="products">
+  <div class="product-item">
+    <div class="product-logo-1"></div>
+	<ul class="scope-list">
+		<li>No support contract</li>
+	</ul>
+  </div>
+  <div class="product-item">
+    <div class="product-logo-2"></div>
+	<ul class="scope-list">
+		<li>Web support via the <a href="https://support.opdemand.com/" target="_blank">portal</a></li>
+		<li>Email support via <a href="mailto:support@opdemand.com">support@opdemand.com</a></li>
+		<li>9am - 6pm Local, M-F</li>
+		<li>Next business day response</li>
+		<li>Remote troubleshooting over SSH or Google Hangout screen-sharing</li>
+		<li>Automatic upgrades (coming soon)</li>
+	</ul>
+  </div>
+  <div class="product-item">
+    <div class="product-logo-3"></div>
+	<ul class="scope-list">
+		<li>Web support via the <a href="https://support.opdemand.com/" target="_blank">portal</a></li>
+		<li>Email support via <a href="mailto:support@opdemand.com">support@opdemand.com</a></li>
+		<li>24 x 7 x 365</li>
+		<li>4 hour response</li>
+		<li>Remote troubleshooting over SSH or Google Hangout screen-sharing</li>
+		<li>Automatic upgrades (coming soon)</li>
+		<li>Priority bug fixes at OpDemand's discretion</li>
+	</ul>
+  </div>
+</div>
+<div style="clear:both;"></div>
+
+<div class="scopeHeading">
+	<p>If you&#8217;ve purchased a Pro or Enterprise subscription from OpDemand, we&#8230;</p>
+</div>
 
 <div class="scope">
 	<div class="support">
 		<div class="scope-title"><h2>Support</h2></div>
 		<div class="scope-support-list">
 			<ul>
-				<li>Configuration of hosting providers and nodes for the platform</li>
-				<li>Installation of platform controller and command-line tools</li>
-				<li>Deployment of nodes used to host platform services</li>
-				<li>Deployment of <a href="http://12factor.net/" target="_blank" style="color:white;text-decoration:underline">Twelve Factor applications</a> on the platform</li>
-				<li>Scaling and management of application containers</li>
+				<li>Provisioning hosts used as part of a Deis cluster</li>
+				<li>Installation of Deis platform components and utilities</li>
+				<li>Deploying and managing Twelve Factor applications on a Deis cluster</li>
 				<li>Connecting applications to backing services like databases, caches and queues</li>
-				<li>Configuration of platform routing and proxies</li>
+				<li>Integrating platform routers with front-end load balancers</li>
 				<li>Aggregation of log data for the platform and hosted applications</li>
-				<li>Standard administrative tasks within the platform</li>
+				<li>Platform administration including upgrades, backups and restores</li>
 			</ul>
 		</div>
 	</div>
@@ -30,11 +64,12 @@ title: Scope of Coverage | OpDemand
 		<div class="scope-title"><h2>Do Not Support</h2></div>
 		<div class="scope-dont-support-list">
 			<ul>
-				<li>Problems with backing services like databases, caches and queues</li>
 				<li>Issues related to cloud providers or underlying infrastructure</li>
-				<li>Integration with unsupported providers or features</li>
-				<li>Problems with Docker or Chef not related to Deis</li>
-				<li>Customization of core platform source code</li>
+				<li>Problems with backing services like databases, caches and queues</li>
+				<li>Deploying or managing applications that do not follow Twelve Factor methodology</li>
+				<li>Using Deis on unsupported platforms or with unsupported 3rd-party software</li>
+				<li>Problems with 3rd-party software or services that are not related to Deis</li>
+				<li>Customization of Deis platform components</li>
 			</ul>
 		</div>
 	</div>

@@ -54,6 +54,7 @@ footer .col-mail-button:hover{color:#fff;background:#00f}
 .products .product-item{float:left;width:348px;margin-right:18px}
 .products .product-item:last-of-type{margin-right:0}
 .products .product-item p{width:320px;min-height:100px;margin-top:30px;margin-bottom:0}
+.products .product-item ul{width:320px;min-height:100px;margin-top:30px;margin-bottom:0}
 .products .product-item .product-logo-1{width:208px;height:37px;background:url(../img/product_logos.png) 0 0 no-repeat}
 .products .product-item .product-logo-2{width:185px;height:37px;background:url(../img/product_logos.png) -209px 0 no-repeat}
 .products .product-item .product-logo-3{width:233px;height:37px;background:url(../img/product_logos.png) -396px 0 no-repeat}
@@ -139,7 +140,9 @@ a.product-option-item-button:last-of-type{margin-right:0}
 .blocks-services{width:782px;height:245px;background:#00f;border-bottom:1px solid #fff}
 .scopeTitle{width:700px;padding-bottom:100px;margin-left:50px}
 .scopeTitle h1{margin-bottom:20px}
-.scopeTitle p{font-size:16px;line-height:22px;color:#989898}
+.scopeHeading{width:700px;padding-bottom:30px;margin-left:50px;margin-top:50px;}
+.scopeHeading p{font-size:16px;line-height:22px;color:#989898}
+.scope-list li{font-family:helvetica;font-size:16px;line-height:22px}
 .scope{padding-bottom:100px}
 .scope .support{height:320px;color:#fff;background:#00f}
 .scope .do-not-support{height:320px;color:#fff;background:#989898}
