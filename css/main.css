@@ -217,3 +217,6 @@ a:hover{color:#00f;text-decoration:none}
 input:focus::-webkit-input-placeholder {
     color: transparent;
 }
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
