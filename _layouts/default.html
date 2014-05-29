@@ -110,7 +110,7 @@
                               <a class="{% if page.url == '/products/enterprise/index.html' %} selected{% endif %}" href="/products/enterprise/">Enterprise</a>
                           </div>
                       </div>
-                      <a class="no-hover{% if page.url == '/services/index.html' %} selected{% endif %}" href="/services/">Services</a>
+                      <a class="no-hover{% if page.url contains '/services/' %} selected{% endif %}" href="/services/">Services</a>
                       <a class="no-hover{% if page.url == '/partners/index.html' %} selected{% endif %}" href="/partners/">Partners</a>
                   </div>
                   <a class="header_button" href="/deis/">Get<img class="get_deis_button" src="/img/deis_button_logo.png" alt="Deis Logo"></a>
